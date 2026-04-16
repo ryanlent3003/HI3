@@ -1,0 +1,17 @@
+name: cven6920-assignment3
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.24
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - scikit-learn>=1.3
+  - pytorch>=2.1
+  - geopandas>=0.14
+  - contextily>=1.6
+  - shapely>=2.0
+  - pip:
+      - dataretrieval>=1.0
+      - pydaymet>=0.15
