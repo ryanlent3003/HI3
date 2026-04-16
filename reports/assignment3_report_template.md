@@ -5,7 +5,7 @@
 - Course: CVEN 6920
 - Instructor:
 - Date:
-- GitHub Repository: https://github.com/<username>/<repo-name>
+- GitHub Repository: https://github.com/ryanlent3003/HI3
 
 ## Project Summary
 Provide a concise summary of the problem, approach, and key findings.

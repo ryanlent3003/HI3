@@ -109,6 +109,9 @@ Future work should focus on scaling and benchmarking. A stronger follow-on study
 This study developed and evaluated a regional LSTM framework for daily streamflow prediction in the Upper Colorado region using integrated streamflow, meteorological, and static catchment data. The model met all assignment requirements and generalized effectively to a fully unseen basin, achieving NSE = 0.646 and KGE = 0.791 at the withheld test site. These results support the use of compact multi-site LSTM models as a practical tool for regional hydrologic prediction when training data are selected to represent diverse runoff regimes.
 
 ## 8. Data and Code Availability
+GitHub repository:
+- https://github.com/ryanlent3003/HI3
+
 Core scripts and outputs are available in the assignment workspace. Key reproducibility files include:
 - run_lstm_upper_colorado.py
 - requirements.txt
