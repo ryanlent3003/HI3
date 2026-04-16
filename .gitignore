@@ -19,10 +19,8 @@ logs/*
 cache/*
 
 # Keep folders tracked
-!data/raw/.gitkeep
 !data/processed/.gitkeep
 !outputs/.gitkeep
-!logs/.gitkeep
 
 # OS/editor
 .DS_Store
