@@ -12,31 +12,6 @@ GitHub repository link (for report):
 
 Figure: Study-site geographic context map used in the streamflow LSTM analysis.
 
-## Repository Structure
-```text
-CVEN6920_Assignment3/
-├── README.md
-├── .gitignore
-├── requirements.txt
-├── environment.yml
-├── scripts/
-│   ├── 01_data_acquisition_processing.py
-│   ├── 02_train_evaluate_lstm.py
-│   ├── 03_figures_analysis.py
-│   └── run_lstm_upper_colorado.py
-├── docs/
-│   └── figures/
-│       └── readme_preview.png
-├── reports/
-│   ├── manuscript_draft.md
-│   └── assignment3_report_template.md
-├── data/
-│   ├── raw/
-│   └── processed/
-├── outputs/
-└── logs/
-```
-
 ## What Each Script Does
 - `scripts/01_data_acquisition_processing.py`: downloads/rebuilds site-level datasets and writes processed tables.
 - `scripts/02_train_evaluate_lstm.py`: runs model training, validation, testing, and writes metrics/predictions/plots.
