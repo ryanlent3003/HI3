@@ -1,6 +1,6 @@
 # Streamflow Prediction with LSTM (Upper Colorado Basin)
 
-This repository contains my CVEN 6920 Assignment 3 project for daily streamflow prediction using a Long Short-Term Memory (LSTM) model. The analysis combines USGS streamflow records with Daymet meteorological forcings and static site descriptors to build a regional model that is trained on multiple gauges and tested on an unseen gauge.
+This repository contains my CVEEN 6920 Assignment 3 project for daily streamflow prediction using a Long Short-Term Memory (LSTM) model. The analysis combines USGS streamflow records with Daymet meteorological forcings and static site descriptors to build a regional model that is trained on multiple gauges and tested on an unseen gauge.
 
 The workflow is designed to be reproducible end-to-end. Running the scripts in order downloads source data, prepares features, trains/evaluates the model, and generates the figures and summary outputs used in the report. Generated data and artifacts are intentionally excluded from version control, so the repository stays lightweight and focused on code, configuration, and documentation.
 
