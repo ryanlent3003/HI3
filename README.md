@@ -8,14 +8,14 @@ GitHub repository link (for report):
 - https://github.com/ryanlent3003/HI3
 
 ## Project Figure
-![Upper Colorado Site Map](docs/figures/readme_preview.png)
+![Upper Colorado Site Map](readme_preview.png)
 
 Figure: Study-site geographic context map used in the streamflow LSTM analysis.
 
 ## What Each Script Does
-- `scripts/01_data_acquisition_processing.py`: downloads/rebuilds site-level datasets and writes processed tables.
-- `scripts/02_train_evaluate_lstm.py`: runs model training, validation, testing, and writes metrics/predictions/plots.
-- `scripts/03_figures_analysis.py`: creates a compact analysis summary from model outputs.
+- `01_data_acquisition_processing.py`: downloads/rebuilds site-level datasets and writes processed tables.
+- `02_train_evaluate_lstm.py`: runs model training, validation, testing, and writes metrics/predictions/plots.
+- `03_figures_analysis.py`: creates a compact analysis summary from model outputs.
 
 ## Environment Setup
 You can use either `pip` or `conda`.
@@ -38,9 +38,9 @@ conda activate cven6920-assignment3
 From the repository root:
 
 ```bash
-python scripts/01_data_acquisition_processing.py
-python scripts/02_train_evaluate_lstm.py
-python scripts/03_figures_analysis.py
+python 01_data_acquisition_processing.py
+python 02_train_evaluate_lstm.py
+python 03_figures_analysis.py
 ```
 
 The scripts are non-interactive and create required folders automatically.
